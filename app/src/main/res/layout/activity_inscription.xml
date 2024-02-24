@@ -11,7 +11,7 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/retourdb"
+            android:id="@+id/retourbt"
             android:layout_width="171dp"
             android:layout_height="wrap_content"
             android:text="Retour"
@@ -22,21 +22,54 @@
             android:layout_height="wrap_content"
             android:text="Nom"
             android:textSize="25dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nom"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Prenom"
             android:textSize="25dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/prenom"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Addresse"
             android:textSize="25dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/addresse"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Telephone"
             android:textSize="25dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/telephone"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="frais de scolarite"
+            android:textSize="25dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fraisScolarite"/>
+
+        <Button
+            android:id="@+id/inscriptionbt"
+            android:layout_width="234dp"
+            android:layout_height="wrap_content"
+            android:text="Inscription"
+            android:textSize="25dp" />
+
 
     </LinearLayout>
 

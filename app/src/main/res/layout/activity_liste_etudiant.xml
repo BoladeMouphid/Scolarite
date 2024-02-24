@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+    <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -15,6 +15,11 @@
             android:layout_height="wrap_content"
             android:text="Liste des etudiants"
             android:textSize="25dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listeDesEtudiants"/>
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -27,26 +32,46 @@
             android:layout_height="wrap_content"
             android:text="nom"
             android:textSize="25dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nom"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="prenom"
             android:textSize="25dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/prenom"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Email"
             android:textSize="25dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="telephone"
             android:textSize="25dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/telephone"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="addresse"
             android:textSize="25dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/addresse"/>
 
     </LinearLayout>
 
